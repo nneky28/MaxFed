@@ -59,7 +59,13 @@ const Bg = ({ data, loading }) => {
               alignItems={"center"}
               height={"100%"}
             >
-              <Spinner size="lg" color={AppColors.biroBlue} />
+              <Spinner
+                size="lg"
+                thickness="4px"
+                speed="0.65s"
+                emptyColor={AppColors.white}
+                color={AppColors.biroBlue}
+              />
             </Box>
           ) : !data ? null : (
             <Flex
