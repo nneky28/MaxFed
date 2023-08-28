@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 
 Follow the steps below to run the project
 
-1.  Clone Main Branch
+1.  Clone Master Branch
 2.  Open terminal in project's root directory.
 3.  Run `npm install` to install dependencies
 4.  run `npm run dev` to start project
